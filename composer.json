@@ -1,0 +1,26 @@
+{
+    "type": "symfony-cache-beta-tests",
+    "license": "proprietary",
+    "name" : "yapro/symfony-cache-beta-tests",
+    "description": "tests for symfony cache beta",
+    "require": {
+        "symfony/cache-contracts": "*",
+        "symfony/cache": "^5.2"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^3.4"
+    },
+    "suggest": {
+        "symfony/http-client": "^4.4|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YaPro\\SymfonyCache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YaPro\\SymfonyCache\\Tests\\": "tests/"
+        }
+    }
+}
